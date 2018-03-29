@@ -1,0 +1,22 @@
+{
+  "name": "Sanchay Mittal Portfolio",
+  "authors": [
+    "Sanchay Mittal"
+  ],
+  "description": "My Portfolio",
+  "main": "index.html",
+  "keywords": [
+    "Font",
+    "awesome",
+    "particle.js"
+  ],
+  "license": "MIT",
+  "homepage": "https://sanchaymittal.github.io/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
