@@ -1,7 +1,7 @@
 {
-  "name": "Sachin Mittal Portfolio",
+  "name": "Sanchay Mittal Portfolio",
   "authors": [
-    "Sachin Mittal"
+    "Sanchay Mittal"
   ],
   "description": "My Portfolio",
   "main": "main.html",
@@ -11,7 +11,7 @@
     "particle.js"
   ],
   "license": "MIT",
-  "homepage": "https://thesachinmittal.github.io/",
+  "homepage": "https://sanchaymittal.github.io/",
   "ignore": [
     "**/.*",
     "node_modules",
