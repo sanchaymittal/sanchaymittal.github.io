@@ -1,17 +1,17 @@
 {
-  "name": "Sanchay Mittal Portfolio",
+  "name": "Sachin Mittal Portfolio",
   "authors": [
-    "Sanchay Mittal"
+    "Sachin Mittal"
   ],
   "description": "My Portfolio",
-  "main": "index.html",
+  "main": "main.html",
   "keywords": [
     "Font",
     "awesome",
     "particle.js"
   ],
   "license": "MIT",
-  "homepage": "https://sanchaymittal.github.io/",
+  "homepage": "https://thesachinmittal.github.io/",
   "ignore": [
     "**/.*",
     "node_modules",

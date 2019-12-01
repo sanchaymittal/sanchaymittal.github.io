@@ -95,7 +95,7 @@ main .menu li:visited {
 }
 
 main .menu li:hover > a {
-	color: #33a7ff;
+	color: #a9de59;
 }
 
 main .menu li:first-child {
@@ -107,7 +107,7 @@ main .menu li:hover:after {
 }
 
 main .menu li:after {
-	background: #33a7ff;
+	background: #a9de59;
 	bottom: -8px;
 	content: "";
 	display: block;
@@ -127,7 +127,7 @@ main .icon-list {
 	margin-top: 20px;
 	text-align: center;
 	padding: 0px;
-	width: 350px;
+	/*width: 350px;*/
 }
 
 main .icon-list > li {
@@ -160,13 +160,8 @@ main .icon-list > li:hover > a {
 	color: white;
 }
 
-.gitcoin_icon {
-	width: 20px;
-	padding: 3px;
-}
-
 main .icon-list > li.twitter {
-	border-color: #1da1f2;
+	border:none;
 	color: #1da1f2;
 }
 
@@ -174,18 +169,8 @@ main .icon-list > li.twitter:hover {
 	background: #1da1f2;
 }
 
-main .icon-list > li.gitcoin {
-	border-color: #4bc97a;
-	color: #4bc97a;
-}
-
-main .icon-list > li.gitcoin:hover {
-	background: #4bc97a;
-}
-
-
 main .icon-list > li.linkedin {
-	border-color: #0976b4;
+	border:none;
 	color: #0976b4;
 }
 
@@ -193,8 +178,26 @@ main .icon-list > li.linkedin:hover {
 	background: #0976b4;
 }
 
+.icon-list > li.quora {
+	border: none;
+	color: #a62100;
+}
+
+main .icon-list > li.quora:hover {
+	background: #a62100;
+}
+
+main .icon-list > li.about {
+	border:none;
+	color: #000066;
+}
+
+main .icon-list > li.about:hover {
+	background: #000066;
+}
+
 main .icon-list > li.facebook {
-	border-color: #3b5998;
+	border:none;
 	color: #3b5998;
 }
 
@@ -202,26 +205,19 @@ main .icon-list > li.facebook:hover {
 	background: #3b5998;
 }
 
-main .icon-list > li.instagram {
-	border-color: #8a3ab9;
-	color: #8a3ab9;
+main .icon-list > li.med {
+	border:none;
+	color: #00ab6b;
 }
 
-main .icon-list > li.instagram:hover {
-	background: #8a3ab9;
+main .icon-list > li.med:hover {
+	background: #00ab6b;
 }
 
-main .icon-list > li.github {
-	border-color: #333;
-	color: #333;
-}
 
-main .icon-list > li.github:hover {
-	background: #767676;
-}
 
 main .icon-list > li.email {
-	border-color: #777;
+	border:none;
 	color: #777;
 }
 
@@ -229,8 +225,78 @@ main .icon-list > li.email:hover {
 	background: #777;
 }
 
+main .icon-list > li.stack {
+	border:none;
+	color: #FF9900
+;
+}
+
+main .icon-list > li.stack:hover {
+	background: #FF9900
+;
+}
+
+main .icon-list > li.github {
+	border:none;
+	color: black
+;
+}
+
+main .icon-list > li.github:hover {
+	background: #777
+	/*color: white*/
+;
+}
+
+main .icon-list > li.instagram {
+	border:none;
+	color: #d84f7a
+;
+}
+
+main .icon-list > li.instagram:hover {
+	background: #d84f7a
+;
+}
+
+main .icon-list > li.behance {
+	border:none;
+	color: #2974fc
+;
+}
+
+main .icon-list > li.behance:hover {
+	background: #2974fc
+;
+}
+
+main .icon-list > li.codepen {
+	border:none;
+	color: black
+;
+}
+
+main .icon-list > li.codepen:hover {
+	background: black
+;
+}
+
+main .icon-list > li.gitcoin {
+	border:none;
+	color: #4bc97a;
+}
+
+main .icon-list > li.gitcoin:hover {
+	background: #4bc97a;
+}
+
+.gitcoin_icon {
+	width: 20px;
+	padding: 3px;
+}
+
 main .icon-list > li.reddit {
-	border-color: #f9493f;
+	border:none;
 	color: #f9493f
 ;
 }
@@ -240,8 +306,8 @@ main .icon-list > li.reddit:hover {
 ;
 }
 
-main .icon-list li > a visited,
-main .icon-list li > a active
+main .icon-list li > a: visited,
+main .icon-list li > a: active
 {
 	color: white;
 }
@@ -251,7 +317,7 @@ main .icon-list li:hover {
 }
 
 main footer {
-	color: #000000;
+	color: #000;
 	font-size: 0.75em;
 	margin-top: 10px;
 	opacity: 0;
@@ -260,4 +326,9 @@ main footer {
 
 main footer .heart {
 	color: #f95959;
+}
+
+.name {
+	text-decoration: none;
+	color: #000;
 }
