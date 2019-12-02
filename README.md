@@ -1,2 +1,2 @@
-# Sanchay Mittal
+# sanchaymittal.github.io
 My Portfolio Website
